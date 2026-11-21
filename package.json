@@ -1,0 +1,17 @@
+{
+  "name": "tiny-dead-letter-queue-manager",
+  "version": "0.1.0",
+  "description": "Stores failed events with retry details and lets you inspect and replay them.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "dependencies": {}
+}
